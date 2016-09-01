@@ -1,0 +1,85 @@
+@navbar-default-bg: #fff;
+
+@theme-color: #91cd4e;
+@theme-color-deep: #21751d;
+@white: #fff;
+
+@txt-color: #444e5d;
+@txt-color-grey: #606e80;
+
+@color-brand: #FC7928;
+
+@bg-color: #f8f8f7;
+@bg-color-10: #f1f2f4;
+@bg-color-50: #e2e2e2;
+@bg-color-70: #e0e0e0;
+
+@border-color: #ccc;
+@border-color-lighter: #eee;
+
+
+// ---------- border corner ---------//
+.border-top-radius(@radius) {
+	border-top-right-radius: @radius;
+	-webkit-border-top-right-radius: @radius;
+	-moz-border-radius-topright: @radius;
+	border-top-left-radius: @radius;
+	-webkit-border-top-left-radius: @radius;
+	-moz-border-radius-topleft: @radius;
+}
+.border-right-radius(@radius) {
+	border-top-right-radius: @radius;
+	-webkit-border-top-right-radius: @radius;
+	-moz-border-radius-topright: @radius;
+	border-bottom-right-radius: @radius;
+	-webkit-border-bottom-right-radius: @radius;
+	-moz-border-radius-bottomright: @radius;
+}
+
+.border-bottom-radius(@radius) {
+	border-bottom-right-radius: @radius;
+	-webkit-border-bottom-right-radius: @radius;
+	-moz-border-radius-bottomright: @radius;
+	border-bottom-left-radius: @radius;
+	-webkit-border-bottom-left-radius: @radius;
+	-moz-border-radius-bottomleft: @radius;
+}
+
+.border-left-radius(@radius) {
+	border-top-left-radius: @radius;
+	-webkit-border-top-left-radius: @radius;
+	-moz-border-radius-topleft: @radius;
+	border-bottom-left-radius: @radius;
+	-webkit-border-bottom-left-radius: @radius;
+	-moz-border-radius-bottomleft: @radius;
+}
+
+.border-radius(@radius) {
+	border-radius: @radius;
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+}
+
+.user-select(@select) {
+	-webkit-user-select: @select;
+	-moz-user-select: @select;
+	user-select: @select;
+}
+// ---------- border corner ---------//
+
+.fitparent(@value) when (length(@value) = 4){
+	position: absolute;
+	top: extract(@value,1); right: extract(@value,2); bottom: extract(@value,3); left: extract(@value,4);
+}
+.fitparent(@value) when (length(@value) = 3){
+	.fitparent(extract(@value,1) extract(@value,2) extract(@value,3) extract(@value,3))
+} 
+.fitparent(@value) when (length(@value) = 2){
+	.fitparent(extract(@value,1) extract(@value,2) extract(@value,1) extract(@value,2))
+}
+.fitparent(@value) when (length(@value) = 1){
+	.fitparent(extract(@value,1) extract(@value,1) extract(@value,1) extract(@value,1))
+}
+.fitparent(){
+	.fitparent(0 0 0 0);
+}

@@ -1,0 +1,71 @@
+@import '../../bower_components/bootstrap/less/bootstrap';
+@import '../../bower_components/toastr/toastr';
+@import '../../bower_components/Swiper/src/less/swiper.less';
+@import (less) '../../bower_components/magnific-popup/dist/magnific-popup.css';
+@import (less) '../../bower_components/summernote/dist/summernote.css';
+@import 'ali.less';
+@import 'util.less';
+@import 'Dashboard.less';
+@import 'Login.less';
+@import 'Admin.less';
+
+/*
+ * Bootstrap overrides.
+ */
+body{
+	font-family: "微软雅黑" ,"Roboto", sans-serif;
+}
+
+.pager{
+	li{
+		cursor: pointer;
+	}
+	.disabled{
+		pointer-events: none;
+	}
+}
+
+
+/*
+ * Swiper overrides.
+ */
+.swiper-button-prev{
+	left: 40px;
+	background-image: url("../img/swipe-left.png");
+	width: 110px;
+	height: 70px;
+	background-size: 100% 100%;
+}
+
+.swiper-button-next{
+	right: 40px;
+	background-image: url("../img/swipe-right.png");
+	width: 110px;
+	height: 70px;
+	background-size: 100% 100%;
+}
+
+/*
+ * Func Style
+ */
+
+.flex-bt{
+	display: flex;
+	justify-content: space-between;
+}
+
+.mt-10{
+	margin-top: 10px;
+}
+
+.mt-20{
+	margin-top: 20px;
+}
+
+.mt-50{
+	margin-top: 50px;
+}
+
+.bg-grey{
+	background-color: @bg-color;
+}
