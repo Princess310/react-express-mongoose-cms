@@ -1,0 +1,96 @@
+{ 
+    "_id" : ObjectId("57c3b739ce92cef404bf7a49"), 
+    "navTypeId" : "0", 
+    "name" : "所有", 
+    "type" : "all", 
+    "ctime" : "Mon Aug 29 2016 12:16:57 GMT+0800 (中国标准时间)", 
+    "utime" : "Mon Aug 29 2016 12:16:57 GMT+0800 (中国标准时间)", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("57c3b790ea2ba416185a2f03"), 
+    "navTypeId" : "3", 
+    "name" : "关于阿里", 
+    "type" : "about", 
+    "ctime" : ISODate("2016-08-29T04:19:06.413+0000"), 
+    "utime" : ISODate("2016-08-29T04:19:06.413+0000")
+}
+{ 
+    "_id" : ObjectId("57c3c030ea2ba416185a2f05"), 
+    "navTypeId" : "2", 
+    "name" : "新闻中心", 
+    "type" : "news", 
+    "ctime" : ISODate("2016-08-29T04:55:46.243+0000"), 
+    "utime" : ISODate("2016-08-29T04:55:46.243+0000")
+}
+{ 
+    "_id" : ObjectId("57c65d5c2805022130b3f65d"), 
+    "navTypeId" : "4", 
+    "name" : "诚聘精英", 
+    "type" : "recruit", 
+    "ctime" : ISODate("2016-08-29T04:55:46.243+0000"), 
+    "utime" : ISODate("2016-08-29T04:55:46.243+0000")
+}
+{ 
+    "_id" : ObjectId("57c661552805022130b3f663"), 
+    "navTypeId" : "5", 
+    "name" : "集团新闻", 
+    "type" : "default", 
+    "pid" : "2", 
+    "ctime" : ISODate("2016-08-29T04:19:06.413+0000"), 
+    "utime" : ISODate("2016-08-29T04:19:06.413+0000")
+}
+{ 
+    "_id" : ObjectId("57c6617f2805022130b3f665"), 
+    "navTypeId" : "6", 
+    "name" : "地区公司新闻", 
+    "type" : "area", 
+    "pid" : "2", 
+    "ctime" : ISODate("2016-08-29T04:19:06.413+0000"), 
+    "utime" : ISODate("2016-08-29T04:19:06.413+0000")
+}
+{ 
+    "_id" : ObjectId("57c6619a2805022130b3f667"), 
+    "navTypeId" : "7", 
+    "name" : "下属公司新闻", 
+    "type" : "branch", 
+    "pid" : "2", 
+    "ctime" : ISODate("2016-08-29T04:19:06.413+0000"), 
+    "utime" : ISODate("2016-08-29T04:19:06.413+0000")
+}
+{ 
+    "_id" : ObjectId("57c661b42805022130b3f669"), 
+    "navTypeId" : "8", 
+    "name" : "媒体关注", 
+    "type" : "media", 
+    "pid" : "2", 
+    "ctime" : ISODate("2016-08-29T04:19:06.413+0000"), 
+    "utime" : ISODate("2016-08-29T04:19:06.413+0000")
+}
+{ 
+    "_id" : ObjectId("57c661c92805022130b3f66b"), 
+    "navTypeId" : "9", 
+    "name" : "集团介绍", 
+    "type" : "default", 
+    "pid" : "3", 
+    "ctime" : ISODate("2016-08-29T04:19:06.413+0000"), 
+    "utime" : ISODate("2016-08-29T04:19:06.413+0000")
+}
+{ 
+    "_id" : ObjectId("57c661e52805022130b3f66d"), 
+    "navTypeId" : "10", 
+    "name" : "领导团队", 
+    "type" : "team", 
+    "pid" : "3", 
+    "ctime" : ISODate("2016-08-29T04:19:06.413+0000"), 
+    "utime" : ISODate("2016-08-29T04:19:06.413+0000")
+}
+{ 
+    "_id" : ObjectId("57c661fd2805022130b3f66f"), 
+    "navTypeId" : "11", 
+    "name" : "企业文化", 
+    "type" : "company", 
+    "pid" : "3", 
+    "ctime" : ISODate("2016-08-29T04:19:06.413+0000"), 
+    "utime" : ISODate("2016-08-29T04:19:06.413+0000")
+}
